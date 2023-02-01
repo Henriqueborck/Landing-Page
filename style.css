@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  font-size: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px;
+}
+header-img {
+  width: 62px;
+  height: 62px;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.header-item {
+  font-family: "sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400px;
+  font-size: 18px;
+}
+.container {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: 48px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-written {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.content-written h1 {
+  font-family: "Rigtheous", sans-serif;
+  font-size: 64px;
+  font-weight: 400px;
+  color: #fff2e7;
+}
+.content-written h2 {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+.content-written button {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  border-radius: 18px;
+  background-color: #ecd6c4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  color: #2f2325;
+  width: 185px;
+  height: 65px;
+  border: none;
+  cursor: pointer;
+}
+.content-written button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+.img-section {
+  height: 430px;
+  width: 395px;
+}
+.content-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.content-second .content-title {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  margin-bottom: 15px;
+  font-family: "righteous", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  color: #fff2e7;
+}
+.content-p {
+  font-family: "Sarala", sans-serif;
+  font-weight: 100px;
+  font-size: 18px;
+  color: #fff2e7;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0.4px solid #fff2e7;
+}
+.img-footer {
+  padding: 42px;
+  width: 495px;
+  height: 145px;
+}
